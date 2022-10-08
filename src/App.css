@@ -1,0 +1,115 @@
+
+.App {
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  text-align: center;
+}
+.head{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.AppShow{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+.SetBox{
+  background-color: white;
+  height: auto;
+  width: 20%;
+  margin: 10px auto;
+  padding: 5px;
+  padding-bottom: 25%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  grid-template-columns: repeat(5,1fr);
+}
+.CardBox{
+  margin: auto;
+  width: 90%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 15px;
+}
+.DisplayCardBox{
+  margin: auto;
+  width: 90%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 40px;
+}
+.CardBox:hover{
+  width: 100%;
+}
+.DisplayCardBox:hover{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100px;
+  height: 50px;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  border: 0;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+.overlayShow {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
